@@ -1,0 +1,69 @@
+.appContainer {
+  display: flex;
+  justify-content: center;
+}
+.commentsContainer {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+.line {
+  border: 1px solid #dee0e3;
+  width: 100%;
+}
+.commentsInputs {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.appHeading {
+  color: #1e293b;
+  font-size: 50px;
+}
+.formDescription {
+  color: #475569;
+  font-size: 15px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  order: 1;
+}
+.nameInput {
+  font-size: 15px;
+  height: 40px;
+  border: 1px solid #cbd2d9;
+  border-radius: 5px;
+  outline: none;
+}
+.commentInput {
+  font-size: 15px;
+  border: 1px solid #cbd2d9;
+  border-radius: 5px;
+  outline: none;
+}
+.addButton {
+  background-color: #0284c7;
+  color: white;
+  border-radius: 5px;
+  align-self: flex-start;
+  outline: none;
+  cursor: pointer;
+}
+.image {
+  width: 280px;
+  height: 200px;
+}
+.heading {
+  color: #475569;
+  font-size: 15px;
+}
+.commentsCount {
+  text-align: center;
+  color: white;
+  background-color: #0284c7;
+  font-size: 15px;
+  border-radius: 5px;
+}
